@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Sirena" />
+    <meta
+      name="description"
+      content="This is a website, my digital portfolio."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>My website</title>
+  </head>
+  <body>
+    <div class="whole_container">
+      <div class="container_header">
+        <span class="sm_view">
+          <div class="dropdown">
+            <button class="dropbtn" id="changeButton">
+              <div><img src="photos/Vector_icon.png" alt="Menu" /></div>
+            </button>
+
+            <div class="dropdown-content">
+              <a href="#about_me">About Me</a>
+              <a href="#skills">Skills</a>
+              <a href="#portfolio">Portfolio</a>
+              <a href="#contactMe">CONTACT ME</a>
+            </div>
+          </div>
+        </span>
+        <span class="lg_view">
+          <div class="lg_view_item"><a href="#about_me">About Me</a></div>
+          <div class="lg_view_item"><a href="#skills">Skills</a></div>
+          <div class="lg_view_item"><a href="#portfolio">Portfolio</a></div>
+          <div class="lg_view_item"><a href="#contactMe">CONTACT ME</a></div>
+        </span>
+      </div>
+
+      <div class="container_body">
+        <div class="container_info">
+          <div class="info">
+            <div class="info_content" id="textContainer">
+              <div class="heading1">Hi, I am</div>
+              <div class="heading2">Sirena Ahmet</div>
+              <div class="heading3">Software Engineering student</div>
+            </div>
+          </div>
+
+          <div class="contacts">
+            <div class="contacts_content">
+              <div><img src="photos/email_logo.svg" alt="email" /></div>
+              <div><a href="https://github.com/sirenaahmet">
+                <img src="photos/github_logo.png" alt="github" />
+              </a></div>
+              <div><img src="photos/linkedin_logo.png" alt="linkedin" /></div>
+            </div>
+          </div>
+
+          <div class="diagonal_rectangle"></div>
+        </div>
+        <section id="about_me">
+          <div class="container_aboutMe">
+            <div class="opening_divs"><h3>ABOUT ME</h3></div>
+            <div class="p_about_me">
+              <p>
+                My name is Sirena Ahmet. I'm 21 years old and a third year
+                Software Engineering student at Epoka University. It has been
+                nearly a month since I've started my internship at
+                <abbr title="Honest Solutions"
+                  ><a href="https://www.honestsolutions.co.uk/">HS</a></abbr
+                >. Even though I've just started learning Front-End
+                technologies, I'm already into it and I can see myself in this
+                industry.
+              </p>
+              <p>
+                From this very little experience I have gathered so far, I can
+                say that designing a website is equally fun and nerve-racking.
+                It requires a lot of patience, knowledge, creativity and most
+                importantly vision. BUT the sense of accomplishment that comes
+                with the desired results, in my opinion, totally pays off the
+                hard work. <br />I'm eagerly looking forward to building a
+                product, or developing a feature for a customer. The latter
+                would not only be a testimony of my skills but also an important
+                service to many.
+              </p>
+              <p>
+                Apart from this, some passions/hobbies of mine are playing the
+                piano, cooking with my sister while watching a romcom, reading
+                and cycling. I like exploring. That being, not only as in
+                exploring nature... I really like exploring myself in new
+                fields, pushing my boundaries and gathering experience as I
+                believe this boosts one's potential and would personally help me
+                in the pursuit of self-development.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="skills">
+          <div class="container_skills">
+            <div class="opening_divs"><h3>SKILLS:</h3></div>
+            <div class="know_skills">
+              <figure>
+                <div class="know_skill">
+                  <img src="photos/c_logo.svg" alt="c-programming" />
+                </div>
+                <figcaption>C</figcaption>
+              </figure>
+              <figure>
+                <div class="know_skill">
+                  <img src="photos/css_logo.svg" alt="css" />
+                </div>
+                <figcaption>
+                  <p>CSS3</p>
+                </figcaption>
+              </figure>
+              <figure>
+                <div class="know_skill">
+                  <img src="photos/html_logo.svg" alt="html5" />
+                </div>
+                <figcaption>HTML5</figcaption>
+              </figure>
+              <figure>
+                <div class="know_skill">
+                  <img src="photos/english_logo.svg" alt="english" />
+                </div>
+                <figcaption>ENGLISH C1</figcaption>
+              </figure>
+            </div>
+            <div class="opening_divs"><h3>LEARNING:</h3></div>
+            <div class="learning_skills">
+              <figure>
+                <div class="learning_skill">
+                  <img src="photos/js_logo.svg" alt="javascript" />
+                </div>
+                <figcaption>JS</figcaption>
+              </figure>
+              <figure>
+                <div class="learning_skill">
+                  <img src="photos/figma_logo.png" alt="figma" />
+                </div>
+                <figcaption>FIGMA</figcaption>
+              </figure>
+              <figure>
+                <div class="learning_skill">
+                  <img src="photos/typescript_logo.png" alt="typescript" />
+                </div>
+                <figcaption>TYPESCRIPT</figcaption>
+              </figure>
+              <figure>
+                <div class="learning_skill">
+                  <img src="photos/nodejs_logo.png" alt="nodejs" />
+                </div>
+                <figcaption>NODEJS</figcaption>
+              </figure>
+              <figure>
+                <div class="learning_skill">
+                  <img src="photos/MySQL.svg" alt="MYSQL" />
+                </div>
+                <figcaption>MySQL</figcaption>
+              </figure>
+            </div>
+          </div>
+        </section>
+
+        <section id="portfolio">
+          <div class="container_portfolio">
+            <div class="portfolio_header">
+              <div>PORTFOLIO</div>
+            </div>
+
+            <div id="portfolio_filters">
+              <button class="filter_btn" data-filter="all">All</button>
+              <button class="filter_btn" data-filter="coded">Coded</button>
+              <button class="filter_btn" data-filter="designed">Designed</button>
+            </div>
+
+            <div class="portfolio_body">
+              <div class="project_coded">
+                <div>
+                  <img
+                    class="portfolio_img"
+                    src="photos/library_management.jpg"
+                    alt="Library Management"
+                  />
+                </div>
+                <h3>Library Management System</h3>
+                <p>Built in Java</p>
+              </div>
+              <div class="project_coded">
+                <div>
+                  <img
+                    class="portfolio_img"
+                    src="photos/car_rental.jpg"
+                    alt="Car Rental Management"
+                  />
+                </div>
+                <h3>Library Management System</h3>
+                <p>Built in C</p>
+              </div>
+              <div class="project_designed">
+                <div>
+                  <img
+                    class="portfolio_img"
+                    src="photos/static_website.png"
+                    alt="Static Website"
+                  />
+                </div>
+                <h3>Figma Static Website</h3>
+                <p>Web-based application</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="contactMe">
+          <div class="container_contactMe">
+            <div class="opening_divs"><h3>CONTACT</h3></div>
+            <div class="contact_info" style="width: 70%">
+              My name is Sirena Ahmet. I'm 21 years old and a third year
+              Software Engineering student at Epoka University.
+            </div>
+            <br />
+            <fieldset>
+              <legend>CONTACT ME</legend>
+
+              <form action="https://httpbin.org/get" method="get">
+                <div class="contact_items">
+                  <div class="contact_item">
+                    <input
+                      type="text"
+                      name="firstname"
+                      id="name"
+                      placeholder="Enter your name..."
+                      required
+                    />
+                  </div>
+                  <div class="contact_item">
+                    <input
+                      type="text"
+                      name="email"
+                      id="email"
+                      placeholder="Enter your email..."
+                      required
+                    />
+                  </div>
+                  <div class="contact_item">
+                    <input
+                      type="tel"
+                      name="phonenumber"
+                      id="phonenr"
+                      pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+                      placeholder="Enter your phone number..."
+                      required
+                    />
+                  </div>
+                  <div class="contact_item">
+                    <textarea placeholder="Write a message:"></textarea>
+                  </div>
+                  <div class="contact_item">
+                    <button type="submit">Submit</button>
+                  </div>
+                </div>
+              </form>
+            </fieldset>
+          </div>
+        </section>
+
+        <section id="footer">
+          <div>☝🏼</div>
+          <div><a href="#">BACK TO TOP</a></div>
+          <div>@2024 Sirena Ahmet All Rights Reserved.</div>
+        </section>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
