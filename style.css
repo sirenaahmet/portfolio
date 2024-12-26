@@ -204,21 +204,6 @@ figure {
   gap: 25px;
   font-size: 15px;
 }
-
-
-/* .heading1 {
-  font-size: 20px;
-}
-
-.heading2 {
-  font-size: 35px;
-  font-weight: bold;
-}
-
-.heading3 {
-  font-size: 12px;
-} */
-
 .heading1 {
   font-size: 30px;
   font-weight: 600;
@@ -448,12 +433,10 @@ h3 {
   color: #fff;
 }
 
-/* newww */
 
 .container_skills, .container_aboutMe {
   background-color: #140a27; 
 }
-
 
 /* effects for buttons */
 
