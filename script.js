@@ -17,9 +17,6 @@ document.addEventListener("DOMContentLoaded", () => {
           project.style.display = "none"; 
         }
       });
-
-      /* filterButtons.forEach((btn) => btn.classList.remove("active"));
-      button.classList.add("active"); */
     });
   });
 });
